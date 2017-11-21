@@ -3,6 +3,6 @@
 */  
 {
     "presets":[
-        "react"
+        "env","react"
     ]
 }
