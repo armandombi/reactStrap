@@ -1,10 +1,15 @@
 import React from 'react';
+import Navbar from './Navbar.jsx';
+import Jumbotron from './Jumbotron.jsx';
+import Page from './Page.jsx';
 
 export default class Theme extends React.Component {
   render() {
     return (
      <div>
-        <h1>Theme Component</h1>
+        <Navbar />
+        <Jumbotron />
+        <Page />
       </div>);
   }
 }
