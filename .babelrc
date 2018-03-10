@@ -1,5 +1,9 @@
 {
     "presets":[
+<<<<<<< HEAD
         "env", "react"
+=======
+        "env","react"
+>>>>>>> f5581ca261175bdf549ceadd60ea84828da0118a
     ]
 }
