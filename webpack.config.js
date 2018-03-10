@@ -29,7 +29,7 @@ module.exports = {
             { test: /\.jsx$/, use: ["source-map-loader"],enforce: "pre"},
             { test: /.jsx?$/, loader: 'babel-loader', include: path.join(__dirname, 'src'),exclude: /node_modules/,
                 query: {
-                  presets: ['es2015', 'react']
+                  presets: ['env', 'react']
                 }}
 
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
